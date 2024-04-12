@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+overflow-x: hidden;
+overflow-y: auto;
+color: aliceblue;
+    height: 100%;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(to bottom, rgb(31, 29, 29), rgb(35, 35, 78), rgb(68, 13, 44));
+}
